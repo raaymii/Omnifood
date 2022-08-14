@@ -46,7 +46,14 @@
       href="./favicon-16x16.png"
     />
     <link rel="manifest" href="/site.webmanifest" />
-
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js"
+    ></script>
     <title>Omnifood</title>
   </head>
 
@@ -85,6 +92,22 @@
         <a class="btn btn-full js--scroll-to-plans" href="#">I'm hungry </a>
         <a class="btn btn-ghost js--scroll-to-start" href="#"> Show me more </a>
       </div>
+
+      <div class="delivered-meals">
+        <div class="delivered-imgs">
+          <img src="img/customers/customer-1.jpg" alt="Customer photo" />
+          <img src="img/customers/customer-2.jpg" alt="Customer photo" />
+          <img src="img/customers/customer-3.jpg" alt="Customer photo" />
+          <img src="img/customers/customer-4.jpg" alt="Customer photo" />
+          <img src="img/customers/customer-5.jpg" alt="Customer photo" />
+          <img src="img/customers/customer-6.jpg" alt="Customer photo" />
+        </div>
+        <p class="delivered-text">
+          <span>250,000+ meals delivered last year!</span>
+        </p>
+      </div>
+    </div>
+
     </header>
 
     <section class="section-features js--section-features" id="features">
@@ -136,6 +159,31 @@
             you feel like. You can also choose from our menu containing over 100
             delicious meals. It's up to you!
           </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-featured">
+      <div class="container">
+        <h2 class="heading-featured-in">As featured in</h2>
+        <div class="logos">
+          <img
+            src="resources/images/logos/techcrunch.png"
+            alt="Techcrunch logo"
+          />
+          <img
+            src="resources/images/logos/business-insider.png"
+            alt="Business Insider logo"
+          />
+          <img
+            src="resources/images/logos/the-new-york-times.png"
+            alt="The New York Times logo"
+          />
+          <img src="resources/images/logos/forbes.png" alt="Forbes logo" />
+          <img
+            src="resources/images/logos/usa-today.png"
+            alt="USA today logo"
+          />
         </div>
       </div>
     </section>
@@ -276,7 +324,7 @@
           </div>
           <div class="city-feature">
             <ion-icon name="logo-twitter" class="icon-small"></ion-icon>
-            <a href="#"> @raay'sdelicacies_lx </a>
+            <a href="#"> @omnifood_lx </a>
           </div>
         </div>
 
@@ -293,7 +341,7 @@
           </div>
           <div class="city-feature">
             <ion-icon name="logo-twitter" class="icon-small"></ion-icon>
-            <a href="#"> @raay'sdelicacies_sf </a>
+            <a href="#"> @omnifood_sf </a>
           </div>
         </div>
 
@@ -310,7 +358,7 @@
           </div>
           <div class="city-feature">
             <ion-icon name="logo-twitter" class="icon-small"></ion-icon>
-            <a href="#">@raay'sdelicacies_berlin</a>
+            <a href="#">@omnifood_berlin</a>
           </div>
         </div>
 
@@ -327,7 +375,7 @@
           </div>
           <div class="city-feature">
             <ion-icon name="logo-twitter" class="icon-small"></ion-icon>
-            <a href="#"> @raay'sdelicacies_london</a>
+            <a href="#"> @omnifood_london</a>
           </div>
         </div>
       </div>
@@ -340,10 +388,9 @@
       <div class="row">
         <div class="col span-1-of-3">
           <blockquote>
-            Raay's delicacies is just awesome! I just launched a startup which
-            leaves me with no time for cooking, so Raay's delicacies is a
-            life-saver. Now that I got used to it, I couldn't live without my
-            daily meals!
+            Omnifood is just awesome! I just launched a startup which leaves me
+            with no time for cooking, so Omnifood is a life-saver. Now that I
+            got used to it, I couldn't live without my daily meals!
             <cite
               ><img src="resources/images/customer-1.jpg" alt="Customer-1" />
               Alberto Duncan</cite
@@ -364,8 +411,8 @@
         <div class="col span-1-of-3">
           <blockquote>
             I was looking for a quick and easy food delivery service in San
-            Franciso. I tried a lot of them and ended up with Raay's delicacies.
-            Best food delivery service in the Bay Area. Keep up the great work!
+            Franciso. I tried a lot of them and ended up with Omnifood. Best
+            food delivery service in the Bay Area. Keep up the great work!
             <cite
               ><img src="resources/images/customer-3.jpg" alt="Customer-3" />
               Milton Chapman</cite
@@ -587,7 +634,7 @@
         </div>
       </div>
       <div class="row">
-        <p>Copyright &copy; 2021 by Omnifood. All rights reserved.</p>
+        <p>Copyright &copy; 2022 by Omnifood. All rights reserved.</p>
       </div>
     </footer>
 
@@ -606,7 +653,7 @@
       integrity="sha512-UDJtJXfzfsiPPgnI5S1000FPLBHMhvzAMX15I+qG2E2OAzC9P1JzUwJOfnypXiOH7MRPaqzhPbBGDNNj7zBfoA=="
       crossorigin="anonymous"
     ></script>
-    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <!-- <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="vendors/js/index.mjs"></script>
     <script src="resources/js/scripts.js"></script>
