@@ -322,7 +322,7 @@ header {
   display: flex;
   position: relative;
   left: 7rem;
-  bottom: -52rem;
+  bottom: -47rem;
 }
 
 .delivered-imgs img {
@@ -341,7 +341,7 @@ header {
   font-size: 1.8rem;
   font-weight: 600;
   position: relative;
-  bottom: -52rem;
+  bottom: -47rem;
   left: 6.9rem;
 }
 
